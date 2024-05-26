@@ -6,6 +6,6 @@ with open('5inputfile.txt', 'r') as f:
         if counter % 2 == 0:
             output.write(i)
 output.close()
-output = open('5outputfile.txt', 'r')
-for line in output:
+with open('5outputfile.txt', 'r') as printout:
+  for line in printout:
     print(line.strip())
