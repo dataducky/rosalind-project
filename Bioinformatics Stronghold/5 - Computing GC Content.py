@@ -46,10 +46,8 @@ GCinput.close()
 #highest value-ator
 highestValue, highestKey = 0.0, ""
 for key, value in GCdict.items():
-    print(key + " | " + str(value))
     if value >= highestValue:
         highestValue = value
         highestKey = key
 print (highestKey)
 print (highestValue * 100)
-print(GCdict)
