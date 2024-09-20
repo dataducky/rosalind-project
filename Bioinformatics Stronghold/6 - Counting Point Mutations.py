@@ -5,4 +5,4 @@ for i in strandS:
     if strandS[ctr] != strandT[ctr]:
         hammingDistance += 1
     ctr += 1
-print(str(hammingDistance))
+print(str(hammingDistance)) 
