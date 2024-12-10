@@ -61,6 +61,7 @@ for i in DNAdict:
             ProfileMatrix.loc[nucCount, "Tstr"] += 1
         nucCount += 1
 
+#builds consensus string
 nucCount = 0
 consensusString = ""
 while nucCount <= strandLength:
@@ -80,7 +81,7 @@ while nucCount <= strandLength:
         consensusString += ("T")
     nucCount += 1
 
-    
+#print statements
 print(consensusString)
 APrint = "A: "
 for i in ProfileMatrix.Astr:
